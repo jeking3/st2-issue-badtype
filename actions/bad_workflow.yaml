@@ -1,0 +1,6 @@
+---
+  name: bad_workflow
+  runner_type: orquesta
+  entry_point: workflows/bad_workflow.yaml
+  enabled: true
+  description: "Demonstrate bad error reporting on incorrect input type."

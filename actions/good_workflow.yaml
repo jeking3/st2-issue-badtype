@@ -1,0 +1,6 @@
+---
+  name: good_workflow
+  runner_type: orquesta
+  entry_point: workflows/good_workflow.yaml
+  enabled: true
+  description: "Demonstrate proper input type works."

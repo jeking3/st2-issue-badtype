@@ -1,0 +1,11 @@
+---
+name: take_array
+runner_type: python-script
+description: An action that takes an array.
+enabled: true
+entry_point: take_array.py
+parameters:
+    value:
+        type: array
+        description: An array
+        required: true

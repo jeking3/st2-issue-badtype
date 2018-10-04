@@ -1,0 +1,9 @@
+version: '1.0'
+
+description: Shows bad handling of incorrect type.
+
+tasks:
+  task1:
+    action: badtype.take_array
+    input:
+      value: "not an array"
