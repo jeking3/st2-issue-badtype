@@ -6,4 +6,4 @@ tasks:
   task1:
     action: badtype.take_array
     input:
-      value: ["not an array"]
+      value: [hello]
